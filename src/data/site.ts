@@ -14,10 +14,8 @@ export const site = {
 
   email: "m.ariffin211@gmail.com",
   linkedin: "https://www.linkedin.com/in/mm-ariffin11",
-  // TODO: replace with your own GitHub profile URL.
-  github: "https://github.com/",
+  github: "https://github.com/ariiffiin",
 
-  // The CV file lives in public/cv/. Replace the PDF there and keep this name.
   cvPath: "/cv/Ariffin-Samsu-CV.pdf",
 
   // TODO: update after you deploy to Vercel. Used for SEO and link previews.
