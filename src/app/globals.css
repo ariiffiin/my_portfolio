@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* Colors: change these values to restyle the whole site. */
+@theme {
+  --color-canvas: #0b1220;
+  --color-surface: #111b2e;
+  --color-surface-2: #17243b;
+  --color-line: #263550;
+  --color-ink: #e8eef7;
+  --color-muted: #9aaac1;
+  --color-accent: #2dd4bf;
+  --color-on-accent: #042f2a;
+}
+
+/* Fonts are loaded in layout.tsx and exposed as CSS variables. */
+@theme inline {
+  --font-sans: var(--font-plex), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-bricolage), var(--font-plex), ui-sans-serif,
+    system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-canvas);
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: var(--color-on-accent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    transition-duration: 0.01ms !important;
+  }
+}
