@@ -19,7 +19,7 @@ export const site = {
   cvPath: "/cv/Ariffin-Samsu-CV.pdf",
 
   // TODO: update after you deploy to Vercel. Used for SEO and link previews.
-  url: "https://ariffin-portfolio.vercel.app",
+  url: "https://my-portfolio-liart-alpha-70.vercel.app/",
   description:
     "Portfolio of Ariffin Samsu, a data analyst and chemical engineer in Kuala Lumpur. SQL, Python, Excel, and Power BI projects built on real datasets.",
 };

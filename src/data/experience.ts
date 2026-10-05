@@ -12,7 +12,7 @@ export const experience: Job[] = [
   {
     role: "Process Engineer, STI CMP module",
     company: "GlobalFoundries Fab7, Singapore",
-    period: "Add dates",
+    period: "Oct 2022 - Aug 2024",
     points: [
       "Supported the STI CMP module in a high-volume semiconductor fab.",
       "Reviewed process and tool data to spot drift and support yield decisions.",
@@ -22,7 +22,7 @@ export const experience: Job[] = [
   {
     role: "Asset Integrity Engineer",
     company: "DNV Malaysia",
-    period: "Add dates",
+    period: "Nov 2024 - Feb 2026",
     points: [
       "Worked on asset integrity management for industrial facilities.",
       "Organized inspection and condition data to support maintenance planning.",

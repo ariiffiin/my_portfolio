@@ -31,7 +31,7 @@ export const projects: Project[] = [
     result:
       "A Power BI dashboard on PriceCatcher data, with a one-page PDF report.",
     tools: ["Excel", "Power Query", "Power BI"],
-    links: [{ label: "View on GitHub", href: "#" }],
+    links: [{ label: "View on GitHub", href: "https://github.com/ariiffiin/Malaysia-Income-Inequality-Cost-of-Living-Intelligence" }],
   },
   {
     slug: "pricecatcher-pipeline",
